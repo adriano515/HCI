@@ -1,0 +1,74 @@
+<ion-view title="Postear Vehiculo" id="page7">
+  <ion-nav-buttons side="left" class="has-header">
+    <a ui-sref="home" id="backPostVehicle" class="button button-icon icon ion-arrow-left-a"></a>
+  </ion-nav-buttons>
+  <ion-content padding="true" class="has-header">
+    <form id="postearVehiculo-form9" class="list">
+      <label class="item item-select" id="postearVehiculo-select4" name="make">
+        <span class="input-label">Fabricante</span>
+        <select>
+          <option>Alfa Romeo</option>
+          <option>Nissan</option>
+        </select>
+      </label>
+      <label class="item item-input" id="postearVehiculo-input19" name="year">
+        <span class="input-label">Año</span>
+        <input type="number" placeholder="">
+      </label>
+      <label class="item item-input" id="postearVehiculo-input27" name="model">
+        <span class="input-label">Modelo</span>
+        <input type="text" placeholder="" ng-model="data.model">
+      </label>
+      <label class="item item-input" id="postearVehiculo-input20">
+        <span class="input-label">Linea</span>
+        <input type="text" placeholder="">
+      </label>
+      <label class="item item-input" id="postearVehiculo-input21" name="odometer">
+        <span class="input-label">Odometro</span>
+        <input type="number" placeholder="">
+      </label>
+      <label class="item item-input" id="postearVehiculo-input15" name="price">
+        <span class="input-label">Precio</span>
+        <input type="number" placeholder="200" ng-model="data.price">
+      </label>
+      <ion-toggle toggle-class="toggle-positive" ng-checked="true" id="postearVehiculo-toggle6" name="negotiable">Precio Negociable</ion-toggle>
+      <label class="item item-input" id="postearVehiculo-input23" name="motor">
+        <span class="input-label">Motor</span>
+        <input type="text" placeholder="">
+      </label>
+      <label class="item item-input" id="postearVehiculo-input24" name="cilinders">
+        <span class="input-label">Cilindros</span>
+        <input type="text" placeholder="">
+      </label>
+      <label class="item item-select" id="postearVehiculo-select5" name="chasisType">
+        <span class="input-label">Tipo de chasis</span>
+        <select>
+          <option>IDK</option>
+          <option>NPI</option>
+        </select>
+      </label>
+      <label class="item item-select" id="postearVehiculo-select3" name="color">
+        <span class="input-label">Color</span>
+        <select>
+          <option>Azul</option>
+          <option>Rojo</option>
+          <option>Amarillo</option>
+        </select>
+      </label>
+      <label class="item item-input" id="postearVehiculo-input25" name="transmision">
+        <span class="input-label">Transmision</span>
+        <input type="text" placeholder="">
+      </label>
+      <label class="item item-input" id="postearVehiculo-input26" name="interior">
+        <span class="input-label">Interior</span>
+        <input type="text" placeholder="">
+      </label>
+      <label class="item item-input" id="postearVehiculo-textarea1" name="description">
+        <span class="input-label">Descripcion</span><textarea placeholder="Carro en buen estado"></textarea></label>
+      <div style="margin-right:-20px;">
+        <input type="file" id="postearVehiculo-button15" style="left:-10px;" class="button button-dark button-large button-full button-clear icon ion-paperclip">Fotos
+      </div>
+      <button ng-click="createVehicle()" id="postearVehiculo-button17" class="button button-positive  button-block">Postear Vehiculo</button>
+    </form>
+  </ion-content>
+</ion-view>

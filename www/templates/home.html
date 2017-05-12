@@ -1,0 +1,41 @@
+<ion-view title="Home" hide-nav-bar="true" id="page3" style="background-color:Default;">
+  <ion-nav-buttons side="left">
+    <button class="button button-icon icon ion-android-car"></button>
+  </ion-nav-buttons>
+  <ion-nav-buttons side="right">
+    <button class="button button-icon icon ion-android-settings"></button>
+  </ion-nav-buttons>
+  <ion-content padding="true" class="manual-ios-statusbar-padding">
+    <div id="home-button-bar2" class="button-bar">
+      <div style="margin-right:-20px;">
+        <a ui-sref="postearVehiculo" id="home-button23" style="left:-10px;" class="button button-dark button-large button-full button-clear icon ion-android-car"></a>
+      </div>
+      <button id="home-button24" class="button button-dark button-large button-block button-clear icon ion-stats-bars"></button>
+      <div style="margin-right:-20px;">
+        <a ui-sref="ajustes" id="home-button25" style="left:-10px;" class="button button-dark button-large button-full button-clear icon ion-android-settings"></a>
+      </div>
+    </div>
+    <form id="home-form6" class="list">
+      <label class="item item-input" id="home-search1" name="search">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="search" placeholder="Busqueda" ng-model="data.search" ng-enter="search()">
+      </label>
+    </form>
+    <a ui-sref="busquedaAvanzada">
+      Busqueda avanzada
+    </a>
+    <div style="margin-left: -10px; width: calc(100% + 20px);">
+      <img src="img/InlXVCv8TyiiW0rHi7XY_images" style="display: block; width: 100%; height: auto; margin-left: auto; margin-right: auto;">
+    </div>
+    <div style="margin-left: -10px; width: calc(100% + 20px);">
+      <img src="img/lHtKQC48QyiyOAbksfzT_the-two-for-one-sales-approach-photo-254200-s-429x262.jpg" style="display: block; width: 100%; height: auto; margin-left: auto; margin-right: auto;">
+    </div>
+    <div style="margin-left: -10px; width: calc(100% + 20px);">
+      <img src="img/bruQjq3USoqYaeObQMZ8_haval-h8-suv-2015.jpg" style="display: block; width: 100%; height: auto; margin-left: auto; margin-right: auto;">
+    </div>
+    <div style="margin-left: -10px; width: calc(100% + 20px);">
+      <img ui-sref="vistaDeVehiculo" src="img/SSDwekt8SgaChEgEC09O_big_426507_1470672774.jpg" style="display: block; width: 100%; height: auto; margin-left: auto; margin-right: auto;">
+    </div>
+
+  </ion-content>
+</ion-view>
