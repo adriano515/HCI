@@ -1,0 +1,12 @@
+1. Unir el proyecto a una BD (mongo?)
+2. Creacion de usuario con BD (ahorita esta una creacion de usuario con localStorage)
+3. Login con BD (igual, ahorita hay un login con localStorage)
+4. Postear un vehiculo (creacion)
+5. Mostrar vehiculos
+6. Busqueda simple (campos: año, precio, modelo ?)
+7. Busqueda avanzada
+8. Ver vehiculo
+9. Solicitar cita (front end y backend, el front podria ser con ionicPush)
+10. Mi perfil (cambiar la tab de opciones por mi perfil, front y back)
+11. Tab de estadisticas (front y back)
+12. Estadisticas de vehiculos (agregarle un texto o algo que represente mejor en lugar de las flechas verdes)
