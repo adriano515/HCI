@@ -4,3 +4,6 @@
 node_modules/
 platforms/
 plugins/
+
+# Don't track the Thumbs.db
+.db
