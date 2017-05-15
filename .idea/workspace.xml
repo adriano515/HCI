@@ -297,7 +297,7 @@
       <option name="presentableId" value="Default" />
       <updated>1494524288368</updated>
       <workItem from="1494524292324" duration="13808000" />
-      <workItem from="1494809940116" duration="144000" />
+      <workItem from="1494809940116" duration="212000" />
     </task>
     <task id="LOCAL-00001" summary="TODO list">
       <created>1494810055602</created>
@@ -306,14 +306,21 @@
       <option name="project" value="LOCAL" />
       <updated>1494810055602</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="workspace.xml add">
+      <created>1494810102536</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1494810102536</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13952000" />
+    <option name="totallyTimeSpent" value="14020000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -385,7 +392,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="TODO list" />
-    <option name="LAST_COMMIT_MESSAGE" value="TODO list" />
+    <MESSAGE value="workspace.xml add" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
