@@ -6,8 +6,12 @@ angular.module('app.controllers', [])
 function ($scope, $stateParams, $state, $ionicPopup) {
   $scope.data = {};
 
+
+
   $scope.login = function() {
+
     var login = window.localStorage.getItem($scope.data.email);
+
     if(login == null){
       var alertPopup = $ionicPopup.alert({
         title: 'Cuenta incorrecta!',
@@ -43,6 +47,7 @@ function ($scope, $stateParams, $state) {
   $scope.data = {};
 
   $scope.createAc = function() {
+
     window.localStorage.setItem($scope.data.email, $scope.data.pass);
     $state.go('inicio');
   }
